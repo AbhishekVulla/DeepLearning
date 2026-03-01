@@ -23,7 +23,7 @@ load_dotenv(Path(__file__).parent / ".env")
 TELEGRAM_BOT_TOKEN = os.getenv("TELEGRAM_BOT_TOKEN", "REMOVED_TELEGRAM_BOT_TOKEN")
 bot = telebot.TeleBot(TELEGRAM_BOT_TOKEN)
 
-REGISTERED_USERS = ["REMOVED_USER_ID_1", "REMOVED_USER_ID_2", "REMOVED_USER_ID_3"]
+REGISTERED_USERS = ["REMOVED_USER_ID_1", "REMOVED_USER_ID_2", "REMOVED_USER_ID_3", "REMOVED_USER_ID_4"]
 SUPABASE_URL = os.getenv("SUPABASE_URL", "https://your-project.supabase.co")
 SUPABASE_KEY = os.getenv("SUPABASE_KEY", "sb_publishable_KuMdlRMDYfFELn8br7zYWQ_5PRFJsU6")
 
