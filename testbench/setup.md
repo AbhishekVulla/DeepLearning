@@ -144,10 +144,10 @@ To run the complete system with live Telegram alerts, OpenAI Vision 2FA, and Sup
    ```
    TELEGRAM_BOT_TOKEN=your-bot-token-here
    ```
-4. **Get your Telegram User ID**: message **@userinfobot** on Telegram — it replies with your numeric user ID (e.g., `REMOVED_USER_ID_4`)
-5. Open `mesh_router.py` and add your user ID to the `REGISTERED_USERS` list (line 26):
-   ```python
-   REGISTERED_USERS = ["REMOVED_USER_ID_1", "REMOVED_USER_ID_2", "REMOVED_USER_ID_3", "REMOVED_USER_ID_4", "YOUR_ID_HERE"]
+4. **Get your Telegram User ID**: message **@userinfobot** on Telegram — it replies with your numeric user ID (e.g., `123456789`)
+5. Add your user ID to `REGISTERED_USERS` in your `.env` (comma-separated for multiple people):
+   ```
+   REGISTERED_USERS=123456789,987654321
    ```
 6. Start a chat with your bot on Telegram and send `/start`
 
